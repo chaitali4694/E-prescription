@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    tools:context="com.example.tatastrive.e_prescription.Display_Info"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Patient Name:"
+            android:textSize="19sp"
+            android:layout_marginLeft="60dp"
+            android:textColor="#0b0b0b"
+            android:id="@+id/Pnametxt"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pname"
+            android:textSize="19sp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/Ptxtview1"
+            />
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone No.:"
+        android:layout_marginLeft="60dp"
+        android:textColor="#0b0b0b"
+        android:textSize="19sp"
+
+        android:id="@+id/Ptxt"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone No."
+        android:textSize="19sp"
+       android:layout_marginLeft="10dp"
+        android:id="@+id/Ptxtview2"
+        />
+
+</LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="30dp"
+      android:orientation="horizontal">
+
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Email id:"
+          android:textSize="19sp"
+          android:layout_marginLeft="60dp"
+          android:textColor="#0b0b0b"
+
+          android:id="@+id/Ptxt2"
+          />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Email id"
+          android:textSize="19sp"
+          android:layout_marginLeft="30dp"
+          android:id="@+id/Ptxtview7"
+          />
+
+
+
+
+
+  </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender:"
+            android:textColor="#0b0b0b"
+            android:textSize="19sp"
+            android:layout_marginLeft="60dp"
+            android:id="@+id/Ptxt3"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+
+            android:textSize="19sp"
+           android:layout_marginLeft="35dp"
+            android:id="@+id/Ptxtview3"
+            />
+
+    </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="30dp"
+      android:orientation="horizontal">
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Age:"
+          android:textSize="19sp"
+          android:textColor="#0b0b0b"
+          android:layout_marginLeft="65dp"
+          android:id="@+id/Ptxt4"/>
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Age"
+
+          android:textSize="19sp"
+         android:layout_marginLeft="64dp"
+          android:id="@+id/Ptxtview4"
+          />
+
+
+  </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="30dp"
+       android:orientation="horizontal">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Weight:"
+           android:textColor="#0b0b0b"
+           android:textSize="19sp"
+           android:layout_marginLeft="65dp"
+           android:id="@+id/Ptxt5"
+           />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Weight"
+           android:textSize="19sp"
+         android:layout_marginLeft="40dp"
+           android:id="@+id/Ptxtview5"
+           />
+
+   </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Disease:"
+            android:textColor="#0b0b0b"
+            android:textSize="19sp"
+            android:layout_marginLeft="65dp"
+            android:id="@+id/Ptxt6"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Disease"
+            android:textSize="19sp"
+           android:layout_marginLeft="30dp"
+            android:id="@+id/Ptxtview6"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Prescription"
+            android:background="#63baac"
+
+            android:id="@+id/Prescriptionbtn"
+
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

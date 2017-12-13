@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <EditText
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Edisease"
+        android:hint="Edit Disease"
+        android:layout_below="@+id/Eweight"
+        android:layout_alignLeft="@+id/Eweight"
+        android:layout_alignStart="@+id/Eweight"
+         />
+
+    <EditText
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Ename"
+        android:hint="Edit Name"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/Edisease"
+        android:layout_alignStart="@+id/Edisease"
+        />
+
+    <EditText
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/EMailID"
+
+        android:hint="Edit Email id"
+        android:layout_below="@+id/Ename"
+        android:layout_centerHorizontal="true"
+       />
+
+    <EditText
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/EAge"
+        android:hint="Edit Age"
+
+        android:layout_below="@+id/EMailID"
+        android:layout_alignRight="@+id/EMailID"
+        android:layout_alignEnd="@+id/EMailID" />
+
+    <EditText
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Eweight"
+        android:hint="Edit Weight"
+
+        android:layout_below="@+id/EAge"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:background="#63baac"
+        android:id="@+id/Cancelbtn"
+        android:layout_marginRight="66dp"
+        android:layout_marginEnd="66dp"
+        android:layout_below="@+id/Edisease"
+        android:layout_alignRight="@+id/Edisease"
+        android:layout_alignEnd="@+id/Edisease" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit"
+        android:background="#63baac"
+
+        android:id="@+id/EditBtn"
+        android:layout_alignTop="@+id/Cancelbtn"
+        android:layout_toLeftOf="@+id/Cancelbtn"
+        android:layout_toStartOf="@+id/Cancelbtn"
+        android:layout_marginRight="32dp"
+        android:layout_marginEnd="32dp" />
+
+</RelativeLayout>
+

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Form of medicine:"
+        android:id="@+id/MedicineForm"
+        android:textSize="20sp"
+        android:layout_weight="0.5"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="form"
+        android:textSize="20sp"
+        android:id="@+id/FormText"
+        android:layout_weight="0.5"
+         />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name of Medicine: "
+            android:layout_weight="0.5"
+            android:textSize="20sp"
+            android:id="@+id/MedicineName"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:textSize="20sp"
+            android:layout_weight="0.5"
+            android:id="@+id/NameText"
+            />
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Strength:"
+        android:textSize="20sp"
+        android:layout_weight="0.5"
+        android:id="@+id/MedicineStrength"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="strength"
+        android:textSize="20sp"
+        android:layout_weight="0.5"
+        android:id="@+id/StrengthText"
+         />
+
+
+</LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dosage:"
+        android:textSize="20sp"
+        android:layout_weight="0.5"
+        android:id="@+id/MedicineDosage"
+         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dosage"
+        android:textSize="20sp"
+        android:layout_weight="0.5"
+        android:id="@+id/DosageText"
+         />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Days:"
+        android:layout_weight="0.5"
+        android:textSize="20sp"
+        android:id="@+id/MedicineDays"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="days"
+        android:layout_weight="0.5"
+        android:textSize="20sp"
+        android:id="@+id/DaysText"
+       />
+
+</LinearLayout>
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Instructions"
+        android:id="@+id/MedicineInstructn"
+        android:layout_weight="0.5"
+        android:textSize="20sp"
+
+         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Instruction"
+        android:textSize="20sp"
+        android:id="@+id/InstructionText"
+        android:layout_weight="0.5"
+        />
+
+
+</LinearLayout>
+
+</LinearLayout>

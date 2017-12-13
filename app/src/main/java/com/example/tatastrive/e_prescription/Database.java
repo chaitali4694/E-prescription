@@ -238,6 +238,7 @@ public Cursor viewPatientinfo()
         return c;
     }
 
+//this is change
 
 }
 
